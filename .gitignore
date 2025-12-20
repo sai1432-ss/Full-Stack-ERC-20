@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Environment Variables (CRITICAL for security)
+.env
+.env.local
+frontend/.env
+
+# Hardhat
+artifacts/
+cache/
+coverage/
+coverage.json
+typechain/
+typechain-types/
+hardhat-network.d.ts
+
+# Vite / React Frontend Build
+frontend/dist/
+frontend/build/
+
+# General OS
+.DS_Store
+Thumbs.db
