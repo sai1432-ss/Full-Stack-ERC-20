@@ -2,10 +2,7 @@
 node_modules/
 frontend/node_modules/
 
-# Environment Variables (CRITICAL for security)
-.env
-.env.local
-frontend/.env
+
 
 # Hardhat
 artifacts/
